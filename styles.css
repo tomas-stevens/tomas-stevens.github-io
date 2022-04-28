@@ -1,0 +1,101 @@
+body{
+    color:white;
+    background-image: url("pics/gal.jpg");
+    background-position: center;
+    background-size: 100%;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER STUFF*/
+header{
+
+    text-align: center;
+    padding: 5px;
+
+}
+
+ header a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* A STUFF */
+a:hover{
+    text-decoration: underline;
+}
+section a{
+    text-decoration: none;
+    color: blue;
+}
+
+a.selected, nav a:hover {
+ color: rgb(68, 131, 247);
+}
+
+/* section stuff  */
+
+section{
+    background: grey;
+    opacity: .95;
+    color: white;
+    margin: 0 0 0 0;
+    padding: 20px;
+    display: flex;
+    direction: row;
+}
+section div{
+    opacity: 1;
+    padding: 5px 20px;
+    margin: auto;
+    text-align: center;
+}
+.skills, .education{
+    margin-left: -60px;
+}
+section div p t{
+color: rgb(107, 143, 143);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin: 10px 5px;
+}
+
+/* FOOTER STUFF*/
+
+footer{
+    background: black;
+    opacity: .9;
+    padding: 20px;
+    display: flex;
+    direction: row;
+    
+}
+footer a {
+    text-decoration: none;
+    color: green;
+}
+footer div p t{
+    opacity: 1;
+    color:  rgb(107, 143, 143);
+}
+footer div{
+    margin: auto;
+    text-align: center;
+}
+footer div h4{
+    margin-top: -82px;
+    margin-left: -60px;
+}
+
+footer div.linking{
+    text-align: right;
+}
