@@ -487,10 +487,14 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
-
+.lead-bold {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-weight: bolder;
+}
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
